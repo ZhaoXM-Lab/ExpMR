@@ -33,11 +33,11 @@ We conducted TWAS for the GWAS summary statistics of 123 IDPs and 26 DBs to inve
 We performed two-sample MR analysis for inferring the causal effects of cell type-specific gene expression on brain-associated complex traits using four methods including SMR, Wald radio, PMR-Egger and GSMR. We also performed bidirectional two-sample MR analysis for inferring the relationships between the above DBs and IDPs using PMR-Egger, GSMR, and methods in R package TwoSampleMR.
 
 - Part 3. <b>Follow-up analysis</b>.
-We performed follow-up analysis which included: (1) merging MR results (1.1.merge MR results.BRVToDB.R, 1.2.merge MR results.CellToBRV.R, 1.3.merge MR results.CellToDB.R, 1.4.merge MR results.CellToWMMP.R, 1.5.merge MR results.DBToBRV.R, 1.6.merge MR results.DBToWMMP.R, 1.7.merge MR results.WMMPToDB.R); (2) identifying putative causal cell type-specific eQTL target genes (eGenes) for IDPs and DBs (2.1.putative causal eGenes.CellToDB.R, 2.2.putative causal eGenes.CellToIDP.R, 2.3.heatmap of causal eGenes.R); (3) characterizing the shared causal eGenes among IDPs and DBs (3.1.hypergeometric test for causal eGene overlap.R, 3.2.bar chart and line chart for causal eGene overlap.R, 3.3.upset and venn figure for causal eGene overlap.R, 3.4.pLI score.R, 3.5.gene enrichment analysis.R, 3.6.heatmap of causal eGene ovelap.R); (4) replication in enternal datasets (4.1.replication rate in BrainMeta.R, 4.2.replication rate in GWAS Catalog.R, 4.3.replication rate in PhychEncode.R); (5) characterizing the potential causal biological pathways amongst them (5.1.pie chart.R, 5.2.dumbbell chart.BRV.R, 5.3.dumbbell chart.WMMP.R); (6) exploring their gene expression patterns using external single-cell data (6.1.putative causal DBs.DBToIDP.R, 6.2.putative causal IDPs.IDPToDB.R, 6.3.putative routes.cell_type_eGene-DB-IDP.sankey plot.R).
+We performed follow-up analysis which included merging MR results, identifying putative causal cell type-specific eQTL target genes (eGenes) for IDPs and DBs, characterizing the shared causal eGenes among IDPs and DBs, replication in enternal datasets, characterizing the potential causal biological pathways amongst them, and exploring their gene expression patterns using external single-cell data.
 ___
 
 If you have any questions, please contact Anyi Yang (yanganyi_angie@163.com) or Xingzhong Zhao (naturescarl@gmail.com).
 ___
 
 If you use the results in your study, please cited
->
+>   
