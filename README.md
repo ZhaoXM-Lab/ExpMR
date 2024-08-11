@@ -23,6 +23,13 @@ These scripts depend on the following software and R packages:
 - stats v4.3.2
 - ggsankey v0.0.9
 - pheatmap v1.0.12
+- ggpubr V0.4.0
+- colorsapce v2.0.2
+- stringr v1.4.0
+- stringi v1.4.6
+- export v0.3.0
+- reshape2 v1.4.4
+- corrplot v0.84
 ___
 Here, we organized the custom codes of the computational analyses in our study into 3 parts as shown below.
 
