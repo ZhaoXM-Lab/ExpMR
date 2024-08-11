@@ -22,7 +22,7 @@ These scripts depend on the following software and R packages:
 - ggplot2 v3.4.4
 - stats v4.3.2
 - ggsankey v0.0.9
-
+- pheatmap v1.0.12
 ___
 Here, we organized the custom codes of the computational analyses in our study into 3 parts as shown below.
 
