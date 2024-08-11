@@ -29,7 +29,7 @@ These scripts depend on the following software and R packages:
 - stringi v1.4.6
 - export v0.3.0
 - reshape2 v1.4.4
-- corrplot v0.84
+- corrplot v0.84.0
 ___
 Here, we organized the custom codes of the computational analyses in our study into 3 parts as shown below.
 
