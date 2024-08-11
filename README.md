@@ -34,11 +34,17 @@ We performed two-sample MR analysis for inferring the causal effects of cell typ
 
 - Part 3. <b>Follow_up_analysis</b>.
 We performed follow-up analysis which included:
+
 (1) merging MR results (1.1.merge MR results.BRVToDB.R, 1.2.merge MR results.CellToBRV.R, 1.3.merge MR results.CellToDB.R, 1.4.merge MR results.CellToWMMP.R, 1.5.merge MR results.DBToBRV.R, 1.6.merge MR results.DBToWMMP.R, 1.7.merge MR results.WMMPToDB.R);
+
 (2) identifying putative causal cell type-specific eQTL target genes (eGenes) for IDPs and DBs (2.1.putative causal eGenes.CellToDB.R, 2.2.putative causal eGenes.CellToIDP.R, 2.3.heatmap of causal eGenes.R).
+
 (3) characterizing the shared causal eGenes among IDPs and DBs (3.1.hypergeometric test for causal eGene overlap.R, 3.2.bar chart and line chart for causal eGene overlap.R, 3.3.upset and venn figure for causal eGene overlap.R, 3.4.pLI score.R, 3.5.gene enrichment analysis.R, 3.6.heatmap of causal eGene ovelap.R).
+
 (4) replication in enternal datasets (4.1.replication rate in BrainMeta.R, 4.2.replication rate in GWAS Catalog.R, 4.3.replication rate in PhychEncode.R).
+
 (5) characterizing the potential causal biological pathways amongst them (5.1.pie chart.R, 5.2.dumbbell chart.BRV.R, 5.3.dumbbell chart.WMMP.R).
+
 (6) exploring their gene expression patterns using external single-cell data (6.1.putative causal DBs.DBToIDP.R, 6.2.putative causal IDPs.IDPToDB.R, 6.3.putative routes.cell_type_eGene-DB-IDP.sankey plot.R).
 ___
 If you have any questions, please contact Anyi Yang (yanganyi_angie@163.com) or Xingzhong Zhao (naturescarl@gmail.com).
