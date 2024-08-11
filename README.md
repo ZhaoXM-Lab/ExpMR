@@ -35,7 +35,7 @@ We performed two-sample MR analysis for inferring the causal effects of cell typ
 - Part 3. <b>Follow_up_analysis</b>.
 We performed follow-up analysis which included:
 
-&ensp;(1) merging MR results (1.1.merge MR results.BRVToDB.R, 1.2.merge MR results.CellToBRV.R, 1.3.merge MR results.CellToDB.R, 1.4.merge MR results.CellToWMMP.R, 1.5.merge MR results.DBToBRV.R, 1.6.merge MR results.DBToWMMP.R, 1.7.merge MR results.WMMPToDB.R);
+> (1) merging MR results (1.1.merge MR results.BRVToDB.R, 1.2.merge MR results.CellToBRV.R, 1.3.merge MR results.CellToDB.R, 1.4.merge MR results.CellToWMMP.R, 1.5.merge MR results.DBToBRV.R, 1.6.merge MR results.DBToWMMP.R, 1.7.merge MR results.WMMPToDB.R);
 
 (2) identifying putative causal cell type-specific eQTL target genes (eGenes) for IDPs and DBs (2.1.putative causal eGenes.CellToDB.R, 2.2.putative causal eGenes.CellToIDP.R, 2.3.heatmap of causal eGenes.R).
 
